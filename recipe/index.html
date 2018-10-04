@@ -50,7 +50,37 @@
         <li>Then take out the pan and enjoy Tavce Gravce.</li>
       </ol>
     </section>
+    <section>
+      <h2>Reviews</h2>
+      <form class="" action="index.html" method="post">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" value="">
 
+        <label for="rating">Rating</label>
+        <input type="radio" name="rating" value="1" checked>
+        <input type="radio" name="rating" value="2">
+        <input type="radio" name="rating" value="3">
+        <input type="radio" name="rating" value="4">
+        <input type="radio" name="rating" value="5">
+
+        <label for="expertise">Cooking Expertise</label>
+
+        <select id="expertise" name="expertise">
+          <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Expertise</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+
+        <label for="">Review
+          <textarea name="review" rows="10" cols="30"></textarea>
+        </label>
+
+        <input type="submit" name="" value="Submit Review">
+      </form>
+    </section>
+    
     <footer>
       <p>Original Recipe by <a href="https://www.linkedin.com/in/urosh-stojkovikj-9b606016a/">Urosh Stojkovikj</a></p>
     </footer>
